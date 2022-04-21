@@ -11,9 +11,7 @@ function App() {
      parseFloat(countries[0].latitude), parseFloat(countries[0].longitude)
     ]);
 
-   useEffect(()=>{
-     console.log(anchor)
-   })
+   
   return(
     <div className='app'>
       
